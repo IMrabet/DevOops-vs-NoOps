@@ -1,0 +1,135 @@
+body {
+	padding:0;
+	
+}
+*{
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+.navbar-bg{
+	color: #fff;
+	background:#000;
+	opacity: 0.5;
+}
+.navbar-bg:hover{
+	opacity: 0.7;
+}
+.navbar-bg a:hover{
+	color: #000;
+	background:#fff;
+}
+
+.navbar-bg button{
+	color: #fff;
+	background:#000;
+	color: #fff;
+	background:#000;
+
+
+
+}
+
+.navbar-bg div{
+	color: #fff;
+	background:#000;
+
+}
+.navbar-bg a{
+	color: #fff;
+	background:#000;
+	border-radius:2px;
+	margin:0;
+
+}
+.navbar-bg li{
+	padding:0;
+	margin:0;
+}
+#demo{
+	overflow:auto; 
+}
+
+.carousel-indicators{
+	background: rgba(0, 6, 56, 0.329);
+	width:100%;
+	margin:0;
+}
+
+.carousel-control-prev{
+	width : 50px;
+	height :50px;
+	background: rgba(0, 6, 56,1);
+	border-radius:50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	}
+.carousel-control-next{
+	width : 50px;
+	height :50px;
+	background: rgba(0, 6, 56, 1);
+	border-radius:50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.carousel-item img{
+	width:100%;
+	max-height:100%;
+	}
+
+.carousel-item{
+	width:100%
+}
+.header {
+	/*position: absolute;
+	top: 0;*/
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/cloud.jpeg);
+	background-size:cover;
+	background-position:center;
+	min-height:80vh;
+	/*width:100%;*/
+}
+.firstbanner{
+	color:#fff;
+	font-weight: bold;
+	text-align: center;
+}
+.intro{
+	color:#fff;
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+	word-spacing: 1px;
+}
+
+
+
+.separator{
+	margin-bottom: 20vh;
+}
+.overlay {
+  position:absolute;
+  bottom :0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width : 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border:solid 1px white;
+}
+.carousel-item:hover .overlay {
+  opacity: 1;
+}
+.carousel-indicators li {
+	width: 0.5vw;
+	height: 0.5vw;
+	border-radius:100%;
+}

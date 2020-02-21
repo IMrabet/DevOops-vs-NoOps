@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>DevOps vs NoOps</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<style>
+	/* Make the image fully responsive */
+	.carousel-inner img {
+	  width: 100%;
+	  height: 100%;
+	}
+	</style>
+	<link rel="stylesheet" href="css/my_style.css">
+</head>
+
+<body >
+	<section class="header py-0" role="header" id="Home">
+		<nav class="navbar navbar-bg navbar-expand-sm fixed-top mb-5">
+		  <div class="container" >
+				<a class="navbar-brand mr-5" href="#"><img width="100"  src="images/centrale_image.jpeg"/></a>
+			  <!-- button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button-->
+			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+				  <li class="nav-item active mx-3">
+					<a class="nav-link px-2" href="#Home">Home<span class="sr-only">(current)</span></a>
+				  </li>
+				  
+				  <li class="nav-item dropdown mx-3">
+					<a class="nav-link dropdown-toggle" href="#definition" id="deftab" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Défintions
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					  <a class="dropdown-item" href="#Defdev">DevOps</a>
+					  <a class="dropdown-item" href="Defno">NoOps</a>
+					</div>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link px-3 mx-3" href="#why">Pourqoui DevOps vs NoOps</a>
+				  </li>
+				  <li class="nav-item dropdown mx-3">
+					<a class="nav-link dropdown-toggle" href="#Nodet" id="noOps" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  NoOps en détail
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					  <a class="dropdown-item" href="#NoAdv">Avantages</a>
+					  <a class="dropdown-item" href="#NoDef">Inconvénients</a>
+					  <a class="dropdown-item" href="#Progress">Progrès</a>
+					</div>
+				  </li>
+				</ul>
+			  </div>
+		  </div>
+		</nav>
+		<nav class="navbar navbar-expand-md separator static-top"></nav>
+		<div class="container-fluid mt-5 firstbanner">
+		<h1 class="h1">DevOps Vs NoOps</h1>
+		<div class="intro">
+			Les méthodes et démarches de développement d'applications et de logiciels sont en évolution au cours des dernières décennies.
+			Les sujets liés au concept de DevOps sont nombreux, 
+			ainsi que les nouvelles approches émergentes. 
+			Récemment, parmi les sujets de tendance et les techniques de développement innovante, il y a aussi le modèle NoOps qui entre en compétition avec le DevOps. <br>
+			De quoi s'agit-il ? Quels sont les progès du NoOps ? Le NoOps marquera-t-il la fin de la DevOps ?
+		</div>
+		</div>
+	</section>
+	<section id="defs" class="mt-5">
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4">1 - Définitions et principes</h1>
+					<p class="lead">Définition des termes Devops et NoOps</p>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<h2 class="h2 mb-3" id="Defdev"> 1.1 - Devops : Défintion générale:</h2>
+			<div class="row">
+				<div id="demo" class="carousel slide container col-6 order-last" data-ride="carousel">
+
+				<!-- Indicators -->
+				<ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1" class=""></li>
+					<li data-target="#demo" data-slide-to="2" class=""></li>
+				</ul>
+				
+				<!-- The slideshow -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+					<img src="images/DevOpsAWS.png"  class="center-block" alt="Los Angeles" >
+					<div class="overlay">&#9400;</div>
+					</div>
+					<div class="carousel-item">
+					<img src="images/DevOps1.png"  class="center-block" alt="Chicago" >
+					<div class="overlay">&#9400; https://www.atlassian.com/blog/devops/2016-state-of-devops-report </div>
+					</div>
+					<div class="carousel-item">
+					<img src="images/DevOps2.png"  class="center-block" alt="New York" >
+					<div class="overlay">&#9400;</div>
+					</div>
+				</div>
+				
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<span class="carousel-control-prev-icon "></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+					<span class="carousel-control-next-icon "></span>
+				</a>
+				</div>
+				<div class="col-6">
+				<p>
+					D'après la définiton du site AWS : <br/>
+					<b>DevOps</b> est une combinaison de philosophies culturelles, de pratiques et d'outils qui améliore la capacité d'une entreprise à livrer des applications et des services à un rythme élevé. Il permet de faire évoluer et d’optimiser les produits plus rapidement que les entreprises utilisant des processus traditionnels de développement de logiciels et de gestion de l’infrastructure. Cette vitesse permet aux entreprises de mieux servir leurs clients et de gagner en compétitivité.
+				</p>
+				<p>
+					Dans un modèle DevOps, les équipes de développement et d'opérations ne sont plus isolées. Il arrive qu'elles soient fusionnées en une seule et même équipe. Les ingénieurs qui la composent travaillent alors sur tout le cycle de vie d'une application, de la création à l’exploitation, en passant par les tests et le déploiement, et développent toute une gamme de compétences liées à différentes fonctions.
+				</p>
+				</div>
+			</div>	
+			<h2 class="h2 my-3" id=""> 1.2 - Devops : Principe et pratiques :</h2>
+			<div class="row">
+				
+				<div class="col-10 order-last">
+					<p>
+						<b>Intégration continue: </b> L'intégration continue est une méthode de développement de logiciel dans laquelle les développeurs intègrent régulièrement leurs modifications de code à un référentiel centralisé, suite à quoi des opérations de création et de test sont automatiquement menées. Les principaux objectifs de l'intégration continue sont : trouver et corriger plus rapidement les problèmes, améliorer la qualité des logiciels et réduire le temps nécessaire pour valider et publier de nouvelles mises à jour de logiciels.
+					</p>
+					<hr>
+					<p>
+						<b>Livraison continue: </b>La livraison continue est une méthode de développement de logiciels dans laquelle les changements de code sont automatiquement générés, testés et préparés pour une publication dans un environnement de production. Cette pratique étend le principe de l'intégration continue en déployant tous les changements de code dans un environnement de test et/ou un environnement de production après l'étape de création. Une bonne livraison continue permet aux développeurs de toujours disposer d'un artéfact prêt au déploiement ayant suivi un processus de test normalisé.
+					</p>
+					<hr>
+					<p>
+						<b>Microservices: </b>L'architecture de microservices est une approche de conception qui consiste à diviser une application en un ensemble de petits services. Chaque service est exécuté par son propre processus et communique avec les autres services par le biais d'une interface bien définie et à l'aide d'un mécanisme léger, typiquement une interface de programmation d'application (API) HTTP. Les microservices sont conçus autour de capacités métier ; chaque service est dédié à une seule fonction. Vous pouvez utiliser différents frameworks ou langages de programmation pour écrire des microservices et les déployer indépendamment, en tant que service unique ou en tant que groupe de services.
+					</p>
+					<hr>
+					<p>
+						<b>Infrastructure en tant que code: </b> L'infrastructure en tant que code est une pratique qui implique la mise en service et la gestion de l'infrastructure à l'aide de code et de techniques de développement de logiciels, notamment le contrôle des versions et l'intégration continue. Le modèle de cloud axé sur les API permet aux développeurs et aux administrateurs système d'interagir avec l'infrastructure de manière programmatique et à n'importe quelle échelle, au lieu de devoir installer et configurer manuellement chaque ressource. Ainsi, les ingénieurs peuvent créer une interface avec l'infrastructure à l'aide d'outils de code et traiter l'infrastructure de la même manière qu'un code d'application. Puisqu'ils sont définis par du code, l'infrastructure et les serveurs peuvent être rapidement déployés à l'aide de modèles standardisés, mis à jour avec les derniers correctifs et les dernières versions ou dupliqués de manière répétable.
+					</p>
+				</div>
+				<div class="col-2">
+					<img src="images/CI.png" class="mx-0"/><br>
+					<img src="images/CD.png" class="mx-0" /> <br>
+					<img src="images/mics.png" class="mx-0" /> <br>
+					<img src="images/Iaas.png" class="mx-0"/> <br>
+				</div>
+
+			</div>
+			<h2 class="h2 my-3" id="Defno"> 1.3 - NoOps :Définition générale :</h2>
+			<div class="row">
+				
+				<div class="col-6 ">
+					<p>
+						<b>NoOps: </b>(no operations) est le concept selon lequel un environnement informatique peut devenir si automatisé et abstrait de l'infrastructure sous-jacente qu'il n'est pas nécessaire d'avoir une équipe dédiée pour gérer les logiciels en interne.L'objectif est d'automatiser complètement le déploiement, la surveillance et la gestion des applications et de l'infrastructure sur laquelle elles fonctionnent.
+					</p>
+				</div>
+				<div class="col-6">
+					<img src="images/noops_dev.png"  style="text-align:center;display:block;height:200px"/><br>
+				</div>
+
+			</div>
+			<h2 class="h2 my-3" id="Defno"> 1.4 - NoOps : Principe et pratiques :</h2>
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-8 ">
+					<p>
+						<b>La Plateforme en tant que Service (PaaS): </b> est un modèle de Cloud Computing où un fournisseur de services Cloud propose des outils hardware et logiciels en tant que service via internet, permettant à l’utilisateur de développer des applications.  Le hardware et le software sont hébergés sur l’infrastructure du fournisseur. Ainsi, les utilisateurs n’ont pas besoin d’installer leur propre hardware et leurs logiciels en interne pour développer ou lancer de nouvelles applications.
+					</p>
+					<hr>
+					<p>
+						<b>Le FaaS (Function-as-a-Service): </b> est un service Cloud lié au serverless computing et aux architectures servereless. Les développeurs de logiciels peuvent s’en servir pour déployer une fonction individuelle. La fonction démarre en quelques millisecondes et traite des requêtes individuelles, puis le processus s’achève. Les principes élémentaires du FaaS sont l’abstraction complète des serveurs à distance du développeur, et les services  "event-driven" et scalables instantanément. 
+					</p>
+					<hr>
+					<p>
+						<b>Serverless computing: </b>désigne l'architecture native du cloud qui vous permet de déléguer davantage de responsabilités opérationnelles à AWS, ce qui augmente votre agilité et votre innovation. Le sans serveur permet de concevoir et d'exécuter des applications et des services sans se soucier des serveurs. Cela permet d'éliminer les tâches de gestion des infrastructures, comme le provisionnement de serveur ou de cluster, la correction, la maintenance des systèmes d'exploitation et la mise en service de capacités.
+					</p>
+					<hr>
+				</div>
+				<div class="col-2">
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+</body>
+
+</html>
